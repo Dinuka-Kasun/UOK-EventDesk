@@ -68,22 +68,6 @@ This platform is designed to showcase upcoming events, parties, and university-b
 5. **Access the Website**:  
    Navigate to [http://localhost/kelaniya-event-website/](http://localhost/UOK-EventDesk/) in your browser.
 
----
-
-## 📂 Project Structure
-
-```
-kelaniya-event-website/
-├── index.php              # Home page
-├── dashboard.php          # Dashboard page
-├── about.php              # About page
-├── assets/                # Static files (CSS, JS, Images)
-│   ├── css/               # Stylesheets
-│   ├── js/                # JavaScript files
-│   └── images/            # Images for the website
-├── db/                    # Database-related scripts
-│   └── connection.php     # Database connection file
-```
 
 ---
 
