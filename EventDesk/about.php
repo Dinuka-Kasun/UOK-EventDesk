@@ -223,7 +223,7 @@
         <!-- Introduction Section -->
         <section class="mb-12">
             <p class="text-lg text-gray-700 leading-relaxed">
-                Welcome to EventDesk, where we transform campus experiences into unforgettable memories. Since our establishment in 2020, we've been the cornerstone of event management at University of Kelaniya, facilitating thousands of successful events that have enriched our vibrant campus community.
+                Welcome to EventDesk, where we transform campus experiences into unforgettable memories. Since our establishment in 2024, we've been the cornerstone of event management at University of Kelaniya, facilitating thousands of successful events that have enriched our vibrant campus community.
             </p>
         </section>
 
