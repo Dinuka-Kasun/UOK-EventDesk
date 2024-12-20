@@ -349,7 +349,7 @@
                         <h4>Krishan Imalka</h4>
                         <h6 class="italic-text">Currently specialized in Software technology.</h6>
                         <h6 class="italic-text">Passionate about Python programming.</h6>
-                        <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/sandaru-lashan-herman" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
+                        <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/krishan-imalka" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
                     </div>
                 </div>
                 <!-- [Previous team member sections remain the same] -->
