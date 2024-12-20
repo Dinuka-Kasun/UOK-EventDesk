@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/16aae85a-a3ba-429c-9931-3e5608445787
 
 
 > **Crafted with ❤️ by University of Kelaniya Students**  
-Dashboard login: user -> admin | pass-> test123
+Dashboard login: user -> admin | pass-> test123<br>
 Welcome to the official repository for the **University of Kelaniya EventDesk Website**!  
 This platform is designed to showcase upcoming events, parties, and university-branded offerings for students, providing easy access to all event-related details.
 
