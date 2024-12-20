@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University of Kelaniya EventDesk</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -61,7 +62,7 @@
 
         .counter.animate {
             opacity: 1;
-            animation: countUp 2s ease-out forwards;
+            animation: countUp 1s ease-out forwards;
         }
 
         @keyframes countUp {
@@ -85,7 +86,7 @@
         .fade-in {
             opacity: 0;
             animation: fadeIn 1s ease-in forwards;
-            animation-delay: 5.5s;
+            animation-delay: 2s;
         }
 
         @keyframes fadeIn {
@@ -97,7 +98,7 @@
             opacity: 0;
             transform: translateY(20px);
             animation: slideUp 1s ease-out forwards;
-            animation-delay: 6s;
+            animation-delay: 2s;
         }
 
         @keyframes slideUp {
@@ -157,7 +158,7 @@
            /* align-items: center;*/
             opacity: 0;
             transform: translateX(50px);
-            transition: opacity 5s ease-out, transform 4s ease-out;
+            transition: opacity 1s ease-out, transform 1s ease-out;
         }
 
         .fade-in-section.fade-left {
@@ -222,7 +223,7 @@
         <!-- Introduction Section -->
         <section class="mb-12">
             <p class="text-lg text-gray-700 leading-relaxed">
-                Welcome to EventDesk, where we transform campus experiences into unforgettable memories. Since our establishment in 2020, we've been the cornerstone of event management at University of Kelaniya, facilitating thousands of successful events that have enriched our vibrant campus community.
+                Welcome to EventDesk, where we transform campus experiences into unforgettable memories. Since our establishment in 2024, we've been the cornerstone of event management at University of Kelaniya, facilitating thousands of successful events that have enriched our vibrant campus community.
             </p>
         </section>
 
@@ -295,9 +296,7 @@
                     </div>
                 </div>
 
-                <!-- Repeat for other team members (sections 2-6) -->
-
-                       [Previous code remains the same until the team section, where we replace the comments with:]
+             
 
                 <!-- Section 2 -->
                 <div class="fade-in-section fade-right" id="section2">
@@ -350,7 +349,7 @@
                         <h4>Krishan Imalka</h4>
                         <h6 class="italic-text">Currently specialized in Software technology.</h6>
                         <h6 class="italic-text">Passionate about Python programming.</h6>
-                        <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/sandaru-lashan-herman" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
+                        <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/krishan-imalka" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
                     </div>
                 </div>
                 <!-- [Previous team member sections remain the same] -->
@@ -392,13 +391,7 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-[#631010] text-white py-6 mt-12">
-        <div class="container mx-auto px-4 text-center">
-            <p>EventHub - Making Campus Events Extraordinary</p>
-            <p class="mt-2">© 2024 EventHub University. All rights reserved.</p>
-        </div>
-    </footer>
+    
 
     <?php include 'templates/footer.php'; ?>
 
