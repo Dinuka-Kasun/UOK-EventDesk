@@ -175,7 +175,7 @@
                         A mobile application developer, has development skills in various areas.
                     </h6>
                     <h6 class="italic-text">
-                        LinkedIn: <a href="https://www.linkedin.com/in/channa-bandara" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+                        LinkedIn: <a href="https://www.linkedin.com/in/channa-bandara-94151032a" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
                     </h6>
                 </div>
             </div>
