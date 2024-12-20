@@ -5,204 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University of Kelaniya EventDesk</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    
+    <link rel="stylesheet" href="assets/css/style_about.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
 
-
-         /* Previous Animation Styles */
-         .typing-animation {
-            display: inline-block;
-            overflow: hidden;
-            border-right: 2px solid;
-            white-space: nowrap;
-            animation: typing 3.5s steps(30, end),
-                       cursor .75s step-end infinite;
-            width: 0;
-        }
-
-        .typing-animation-delayed {
-            display: inline-block;
-            overflow: hidden;
-            border-right: 2px solid;
-            white-space: nowrap;
-            opacity: 0;
-            animation: typing 2s steps(30, end) 3.5s forwards,
-                       cursor .75s step-end infinite;
-            width: 0;
-        }
-
-        @keyframes cursor {
-            from, to { border-color: transparent }
-            50% { border-color: white; }
-        }
-
-        @keyframes typing {
-            from { width: 0 }
-            to { width: 100%; opacity: 1; }
-        }
-
-        /* Impact Section Animation */
-        .impact-item {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-        }
-
-        .impact-item.animate {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .counter {
-            display: inline-block;
-            opacity: 0;
-        }
-
-        .counter.animate {
-            opacity: 1;
-            animation: countUp 1s ease-out forwards;
-        }
-
-        @keyframes countUp {
-            from {
-                transform: translateY(20px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        /* Previous styles remain the same */
-        .header-container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .fade-in {
-            opacity: 0;
-            animation: fadeIn 1s ease-in forwards;
-            animation-delay: 2s;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        .team-section {
-            opacity: 0;
-            transform: translateY(20px);
-            animation: slideUp 1s ease-out forwards;
-            animation-delay: 2s;
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @media (max-width: 640px) {
-            .typing-animation, .typing-animation-delayed {
-                font-size: 1.5rem;
-            }
-        }
-       /* .backimg {
-            background-image: url("UOK IMAGE.jpg");
-            background-repeat: no-repeat;
-        }*/
-
-        /* Team Section Styles */
-
-       
-
-        .team-details h6 {
-            margin-bottom: 10px;
-        }
-
-        .italic-text {
-            font-style: italic;
-            color: #555;
-            font-size: 14px;
-        }
-
-        .linkedin-icon {
-            color: #0077b5;
-            font-size: 20px;
-            margin-left: 5px;
-        }
-
-        .linkedin-icon:hover {
-            color: #005c8e;
-        }
-
-        .fade-in-sections {
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-            padding: 20px;
-        }
-
-        .fade-in-section {
-            display: flex;
-           /* align-items: center;*/
-            opacity: 0;
-            transform: translateX(50px);
-            transition: opacity 1s ease-out, transform 1s ease-out;
-        }
-
-        .fade-in-section.fade-left {
-            flex-direction: row;
-            transform: translateX(-50px);
-        }
-
-        .fade-in-section.fade-right {
-            flex-direction: row-reverse;
-            transform: translateX(50px);
-        }
-
-        .fade-in-section.animate {
-            opacity: 1;
-            transform: translateX(0);
-        }
-
-        .round-image {
-            width: 150px;
-            height: 150px;
-            object-fit: contain;
-            border-radius: 50%;
-            margin: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .fade-in-section p {
-            font-size: 14px;
-            color: #333;
-            max-width: 300px;
-            text-align: justify;
-        }
-
-        @media (max-width: 768px) {
-            .fade-in-section {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .fade-in-section img {
-                margin-bottom: 20px;
-            }
-        }
-    </style>
 </head>
 <body class="bg-gray-50">
     <?php 
@@ -292,8 +98,10 @@
                         <h4>Sandaru Lashan</h4>
                         <h6 class="italic-text">An android application developer, currently specialized in Software technology.</h6>
                         <h6 class="italic-text">Passionate about creating mobile applications that are efficient and more secure.</h6>
+                        
                         <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/sandaru-lashan-herman" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
-                    </div>
+                        <h6 class="italic-text">CT/2020/012</h6>
+               </div>
                 </div>
 
              
@@ -306,6 +114,7 @@
                         <h6 class="italic-text">Currently specialized in Software technology.</h6>
                         <h6 class="italic-text">Would love to create creative and user-focused applications.</h6>
                         <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/chamishka-dilina" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
+                        <h6 class="italic-text">CT/2020/027</h6>
                     </div>
                 </div>
 
@@ -317,6 +126,7 @@
                         <h6 class="italic-text">Currently specialized in Software technology.</h6>
                         <h6 class="italic-text">A mobile application developer, has development skills in various areas.</h6>
                         <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/channa-bandara-94151032a" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
+                        <h6 class="italic-text">CT/2020/075</h6>
                     </div>
                 </div>
 
@@ -328,6 +138,7 @@
                         <h6 class="italic-text">A cybersecurity specialist, pen tester currently specialized in Network technology.</h6>
                         <h6 class="italic-text">Passionate about security, developing exploits.</h6>
                         <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/dinuka-kasun-a05210323" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
+                        <h6 class="italic-text">CT/2020/065</h6>
                     </div>
                 </div>
 
@@ -339,6 +150,7 @@
                         <h6 class="italic-text">A network designer, currently specialized in Network Technology.</h6>
                         <h6 class="italic-text">Passionate about creating network designs and UI/UX designs.</h6>
                         <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/isuru-kavinda-b71348188" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
+                        <h6 class="italic-text">CT/2020/047</h6>
                     </div>
                 </div>
 
@@ -350,6 +162,7 @@
                         <h6 class="italic-text">Currently specialized in Software technology.</h6>
                         <h6 class="italic-text">Passionate about Python programming.</h6>
                         <h6 class="italic-text">LinkedIn: <a href="https://www.linkedin.com/in/krishan-imalka" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></h6>
+                        <h6 class="italic-text">CT/2020/086</h6>
                     </div>
                 </div>
                 <!-- [Previous team member sections remain the same] -->
